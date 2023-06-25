@@ -10,7 +10,7 @@ import riceUniversity from "../public/images/rice-university.png";
 
 const Exhibitors = () => {
   return (
-    <section className="mb-[7rem]">
+    <section className="md:mb-[7rem]">
       <h1 className="heading mb-[3rem] md:mb-[120px]">Meet our 2023 Exhibitors</h1>
       <div className="flex flex-col items-center gap-[75px] px-6">
         <Image src={cafecollege} width={501} height={200} alt="cafecollege logo" />

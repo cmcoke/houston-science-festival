@@ -5,6 +5,7 @@ import Button from "@/components/Button";
 import Sqaure from "@/components/Sqaure";
 import Rectangle from "@/components/Rectangle";
 import Exhibitors from "@/components/Exhibitors";
+import Sponsors from "@/components/Sponsors";
 
 const Home = () => {
   return (
@@ -26,7 +27,7 @@ const Home = () => {
         paragraph="Bridges to Science's Houston Science Festival - Casa to College, the first of its kind in Houston, is a celebration of Hispanic culture and learning at home designed for 6th-12th grade students and their parents, showcasing science, technology, engineering, and math (STEM). It offers a vibrant fiesta with workshops, live demonstrations, multidisciplinary collaborations, family-friendly science activities, interactive experiences, STEM career panels, and a taste of Hispanic cuisine. By highlighting Houston's Hispanic cultural heritage, the event encourages families to learn en familia and explore exciting science pathways, fostering a deeper connection between science and the arts."
         button={<Button text="Register now!" ariaLabel="Register now" />}
       />
-      <section className="max-w-[1400px] mx-auto mt-[7rem] lg:mt-[11rem] mb-[13rem] bg-[url('../public/images/bg--home.png')] bg-[top_center] bg-no-repeat bg-cover">
+      <section className="max-w-[1400px] mx-auto mt-[7rem] lg:mt-[11rem] mb-[7rem] md:mb-[11rem] bg-[url('../public/images/bg--home.png')] bg-[top_center] bg-no-repeat bg-cover">
         <h1 className="heading mb-[1rem] lg:mb-[123px]">Call for Entries!</h1>
         <div className="flex flex-col md:flex-row items-center gap-[10px] lg:gap-[100px]">
           <Sqaure title="Present" paragraph="We invite STEM professionals and higher education providers to join us as speakers, panelists, and live demo facilitators, offering a platform to inspire Hispanic and minority middle schoolers towards STEM pathways and explore future careers in STEM." button={<Button text="Learn more!" ariaLabel="Learn more" />} />
@@ -37,6 +38,7 @@ const Home = () => {
         </div>
       </section>
       <Exhibitors />
+      <Sponsors />
     </>
   );
 };
