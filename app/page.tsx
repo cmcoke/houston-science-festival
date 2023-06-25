@@ -4,6 +4,7 @@ import Introduction from "@/components/Introduction";
 import Button from "@/components/Button";
 import Sqaure from "@/components/Sqaure";
 import Rectangle from "@/components/Rectangle";
+import Exhibitors from "@/components/Exhibitors";
 
 const Home = () => {
   return (
@@ -35,6 +36,7 @@ const Home = () => {
           <Rectangle title="Exhibit" paragraph="Join us for an exhilarating day of hands-on STEM activities! We are seeking passionate exhibitors who can lead engaging activities in an expo hall setting, aimed at introducing their organization to 6th-12th grade students and parents while igniting their enthusiasm for math and science. As an exhibitor or activity leader, your role will involve providing exciting hands-on STEM experiences, along with offering support and encouragement." button={<Button text="Sign up!" ariaLabel="Sign up" />} />
         </div>
       </section>
+      <Exhibitors />
     </>
   );
 };
