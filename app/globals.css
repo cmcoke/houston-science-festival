@@ -111,12 +111,14 @@ p.paragraph {
 /* Styles for landscape mode */
 @media only screen and (orientation: landscape) {
   nav {
-    margin-top: 1.75rem;
+    /* margin-top: 1.75rem; */
+    transform: translateY(13%) !important;
   }
 }
 
 @media only screen and (min-width: 64em) {
   nav {
     margin-top: 0;
+    transform: none !important;
   }
 }

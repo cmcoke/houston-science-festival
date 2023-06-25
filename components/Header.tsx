@@ -31,7 +31,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="w-full bg-[rgba(32,43,82,0.30)]">
+    <header className=" absolute z-10 w-full bg-[rgba(32,43,82,0.30)]">
       <div className="mx-[3%] flex items-center justify-between">
         {/* logo -- mobile version*/}
         <Link href={"/"} className="lg:hidden ml-[-1rem] ">
@@ -47,8 +47,8 @@ const Header = () => {
         <nav
           className={`
           absolute 
-          -translate-y-2/4 
-          top-2/4 
+          translate-y-[61%] 
+          top-[61%] 
           z-20 
           transition-opacity 
           duration-500 
