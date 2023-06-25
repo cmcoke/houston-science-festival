@@ -80,7 +80,7 @@ select {
 
 /* Typography */
 h1.heading {
-  @apply text-[1.6rem] font-bold leading-[120%] tracking-[-1.28px] text-[#EBF9FB] text-center;
+  @apply text-[2rem] font-bold leading-[120%] tracking-[-1.28px] text-[#EBF9FB] text-center;
 }
 
 @media (min-width: 768px) {
@@ -96,8 +96,15 @@ h1.heading {
 }
 
 h2.heading {
-  @apply text-[2.5rem] font-bold leading-[120%] tracking-[-0.8px] text-[#EBF9FB];
+  @apply text-[2rem] font-bold leading-[120%] tracking-[-0.8px] text-[#EBF9FB];
 }
+
+@media (min-width: 1024px) {
+  h2.heading {
+    @apply text-[2.5rem]
+  }
+}
+
 
 h3.heading.medium-blue {
   @apply text-[1.3rem] font-bold leading-[120%] tracking-[-0.48px] text-[#23B9D3] text-center;
@@ -115,6 +122,7 @@ h3.heading.light-blue {
 
 p.paragraph.center {
   @apply text-base leading-[160%] text-center text-[#EBF9FB];
+  /* @apply text-[.89rem] leading-[160%] text-center text-[#EBF9FB]; */
 }
 
 p.paragraph {
