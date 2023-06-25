@@ -1,3 +1,4 @@
+import Header from "@/components/Header";
 import "./globals.css";
 import localFont from "next/font/local";
 
@@ -11,10 +12,10 @@ const myFont = localFont({ src: "../public/font/Trebuchet-MS.ttf" });
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={`grid grid-rows-[auto_1fr_auto] grid-cols-[100%] min-h-[100vh] bg-[#202B52] text-white ${myFont.className}`}>
-        <header>Header</header>
+      <body className={`grid grid-rows-[auto_1fr_auto] grid-cols-[100%] min-h-[100vh] bg-[#202B52] text-white ${myFont.className} relative`}>
+        <Header />
         <main>{children}</main>
-        <footer>Footer</footer>
+        <footer></footer>
       </body>
     </html>
   );

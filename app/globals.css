@@ -107,3 +107,16 @@ p.paragraph {
 .wrapper {
   margin: 0 8%;
 }
+
+/* Styles for landscape mode */
+@media only screen and (orientation: landscape) {
+  nav {
+    margin-top: 1.75rem;
+  }
+}
+
+@media only screen and (min-width: 64em) {
+  nav {
+    margin-top: 0;
+  }
+}
