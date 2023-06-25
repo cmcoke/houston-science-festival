@@ -13,7 +13,7 @@ const Hero = ({ image, alt, position }: HeroProps) => {
       <Image src={image} alt={alt} width={2880} height={1600} priority={true} />
 
       {position === "left" ? (
-        <svg viewBox="29 24 1073 436" fill="none" xmlns="http://www.w3.org/2000/svg" className="absolute -translate-y-[50%] left-[4%] top-[50%] z-10">
+        <svg viewBox="29 24 1073 436" fill="none" xmlns="http://www.w3.org/2000/svg" className="absolute -translate-y-[50%] left-[4%] top-[50%] z-0">
           <g filter="url(#filter0_f_38_960)">
             <rect x="100" y="100" width="290" height="236" fill="#202B52" fillOpacity="0.75" />
           </g>
