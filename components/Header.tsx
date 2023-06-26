@@ -28,7 +28,7 @@ const Header = () => {
     window.addEventListener("resize", handleResize);
 
     return () => window.removeEventListener("resize", handleResize);
-  });
+  }, []);
 
   return (
     <header className=" absolute z-10 w-full bg-[rgba(32,43,82,0.30)]">
