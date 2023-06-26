@@ -85,7 +85,7 @@ const Header = () => {
         </nav>
 
         {/* mobile menu icon */}
-        <button className="bg-transparent  border-0 border-solid border-white mt-1 z-10 lg:hidden" onClick={() => mobileMenuStore.toggleMobileMenu()}>
+        <button className="bg-transparent  border-0 border-solid border-white mt-1 z-10 lg:hidden" onClick={() => {}}>
           <span className={mobileMenuStore.isMobileMenuOpen ? `w-[45px] h-0.5 bg-[#ecf0f1] block transition-all duration-[0.3s] ease-[ease-in-out] mx-auto my-[7px] translate-y-[0px] translate-x-[-5px] rotate-45` : `w-[45px] h-0.5 bg-[#ecf0f1] block transition-all duration-[0.3s] ease-[ease-in-out] mx-auto my-[7px]`}></span>
           <span className={mobileMenuStore.isMobileMenuOpen ? `opacity-0` : `w-[45px] h-0.5 bg-[#ecf0f1] block transition-all duration-[0.3s] ease-[ease-in-out] mx-auto my-[7px]`}></span>
           <span className={mobileMenuStore.isMobileMenuOpen ? `w-[45px] h-0.5 bg-[#ecf0f1] block transition-all duration-[0.3s] ease-[ease-in-out] mx-auto my-[7px] translate-y-[-9px] translate-x-[-5px] -rotate-45` : `w-[45px] h-0.5 bg-[#ecf0f1] block transition-all duration-[0.3s] ease-[ease-in-out] mx-auto my-[7px]`}></span>

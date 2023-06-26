@@ -3,6 +3,8 @@ import image from "../../public/images/hero--present.png";
 import Introduction from "@/components/Introduction";
 import Button from "@/components/Button";
 import Rectangle from "@/components/Rectangle";
+import Sponsors from "@/components/Sponsors";
+import Callaborators from "@/components/Callaborators";
 
 const Present = () => {
   return (
@@ -67,6 +69,8 @@ const Present = () => {
           />
         </div>
       </section>
+      <Sponsors />
+      <Callaborators />
     </>
   );
 };
