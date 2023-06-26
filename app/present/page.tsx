@@ -6,10 +6,15 @@ import Rectangle from "@/components/Rectangle";
 import Sponsors from "@/components/Sponsors";
 import Callaborators from "@/components/Callaborators";
 
+import topLines from "../../public/images/present-top-lines.png";
+import bottomLines from "../../public/images/present-bottom-lines.png";
+import Image from "next/image";
+
 const Present = () => {
   return (
-    <>
+    <div className="relative">
       <Hero image={image} alt="adorable girl being passionate about robotics" />
+
       <Introduction
         title="Present"
         subtitle="Call for entries closes day/month/year"
@@ -25,8 +30,9 @@ const Present = () => {
         }
         button={<Button text="Sign up!" ariaLabel="Sign up" />}
       />
+
       <section className="max-w-[1400px] mx-auto mt-[12rem] ">
-        <div className="mb-[7rem]">
+        <div className="mb-[7rem] z-10 relative">
           <Rectangle
             title="Speaker"
             paragraph={
@@ -40,7 +46,8 @@ const Present = () => {
             button={<Button text="Sign up!" ariaLabel="Sign up" />}
           />
         </div>
-        <div className="mb-[7rem]">
+
+        <div className="mb-[7rem] z-10 relative">
           <Rectangle
             title="Panelist"
             paragraph={
@@ -54,6 +61,7 @@ const Present = () => {
             button={<Button text="Sign up!" ariaLabel="Sign up" />}
           />
         </div>
+
         <div>
           <Rectangle
             title="Demonstrator"
@@ -69,9 +77,21 @@ const Present = () => {
           />
         </div>
       </section>
+
       <Sponsors />
+
       <Callaborators />
-    </>
+
+      {/* top lines */}
+      <div className="absolute right-0 -translate-y-[28%]  top-[28%] z-0">
+        <Image src={topLines} width={1006} height={1251} alt="top lines" />
+      </div>
+
+      {/* bottom lines */}
+      <div className="absolute left-0 -translate-y-[39%]  top-[39%] z-0">
+        <Image src={bottomLines} width={1458} height={1876} alt="bottom lines" />
+      </div>
+    </div>
   );
 };
 export default Present;

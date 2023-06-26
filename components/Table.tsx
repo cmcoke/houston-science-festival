@@ -6,6 +6,7 @@ import topSilverShape from "../public/images/silver-shape-top.png";
 import bottomSilverShape from "../public/images/silver-shape-bottom.png";
 import topCopperShape from "../public/images/copper-shape-top.png";
 import bottomCopperShape from "../public/images/copper-shape-bottom.png";
+import Button from "./Button";
 
 const Table = () => {
   return (
@@ -117,6 +118,10 @@ const Table = () => {
           </tr>
         </tfoot>
       </table>
+
+      <div className="flex justify-center mt-[7rem]">
+        <Button text="Become a Sponsor!" ariaLabel="Become a Sponsor" />
+      </div>
     </section>
   );
 };

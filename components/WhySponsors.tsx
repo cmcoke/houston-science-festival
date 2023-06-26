@@ -7,7 +7,7 @@ import Button from "./Button";
 
 const WhySponsors = () => {
   return (
-    <section className="mb-[8rem] lg:mb-[15rem] max-w-[1326px] mx-auto">
+    <section className="mb-[8rem] lg:mb-[15rem] max-w-[1326px] mx-auto relative z-10">
       <h1 className="heading mt-[8rem] mb-[2rem] xl:mt-[13rem] xl:mb-[7rem]">Why Sponsor?</h1>
 
       <div className=" px-[2rem] grid grid-cols-1 min-[600px]:grid-cols-2 xl:grid-cols-4  gap-[3rem]">
