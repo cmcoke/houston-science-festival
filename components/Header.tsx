@@ -64,7 +64,7 @@ const Header = () => {
         >
           <ul className="flex flex-col gap-6 lg:flex-row lg:items-center lg:gap-[75px]">
             <li>
-              <Link href={"/"} className="text-[1.25rem] tracking-[0.03rem]">
+              <Link href={"/present"} className="text-[1.25rem] tracking-[0.03rem]">
                 Present
               </Link>
             </li>
