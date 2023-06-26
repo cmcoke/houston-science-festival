@@ -40,7 +40,7 @@ const Present = () => {
                 Unleash your STEM expertise and make a lasting impact as a speaker. Speakers will present an engaging STEM topic of their choosing to an audience for 20 minutes with 10 minutes for questions from the audience.
                 <br />
                 <br />
-                If you have a topic that'll leave the audience spell-bound, don't miss out! Please fill out the form below to give us details. We will follow up with a phone call to discuss.
+                If you have a topic that&lsquo;ll leave the audience spell-bound, don&lsquo;t miss out! Please fill out the form below to give us details. We will follow up with a phone call to discuss.
               </>
             }
             button={<Button text="Sign up!" ariaLabel="Sign up" />}
@@ -67,7 +67,7 @@ const Present = () => {
             title="Demonstrator"
             paragraph={
               <>
-                We are in search of passionate professionals who can facilitate mind-blowing science and math demonstrations. Grab the spotlight on the main auditorium stage and take 6th-12th grade students and parents an on an exhilarating 15-minute journey, leaving them inspired and envisioning themselves as the scientists of tomorrow. Don't miss this incredible opportunity to shape the future of science.
+                We are in search of passionate professionals who can facilitate mind-blowing science and math demonstrations. Grab the spotlight on the main auditorium stage and take 6th-12th grade students and parents an on an exhilarating 15-minute journey, leaving them inspired and envisioning themselves as the scientists of tomorrow. Don&lsquo;t miss this incredible opportunity to shape the future of science.
                 <br />
                 <br />
                 Join us now and be the catalyst for their scientific dreams! Sign up by clicking below.

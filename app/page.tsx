@@ -15,7 +15,7 @@ const Home = () => {
       <Introduction
         title={
           <>
-            We're kicking off Hispanic Heritage <br /> Month with style!
+            We&lsquo;re kicking off Hispanic Heritage <br /> Month with style!
           </>
         }
         subtitle={

@@ -20,7 +20,7 @@ const Sponsor = () => {
         title="Sponsor"
         paragraph={
           <>
-            As we strive to make Bridges to Science's Houston Science Festival - Casa to College a resounding success, we are seeking sponsors who can contribute to its realization. By being a sponsor, your organization gains exposure and connection to a diverse STEM education community driven by the meaningful impact of learning. Sponsors demonstrate a commitment to educational growth and inclusivity, and provide valuable educational resources and experiences to students who may otherwise lack access to such opportunities. Together, we can create an unforgettable and impactful STEM-inspired fiesta that celebrates Houston's Hispanic cultural heritage while nurturing the educational growth of our community.
+            As we strive to make Bridges to Science&lsquo;s Houston Science Festival - Casa to College a resounding success, we are seeking sponsors who can contribute to its realization. By being a sponsor, your organization gains exposure and connection to a diverse STEM education community driven by the meaningful impact of learning. Sponsors demonstrate a commitment to educational growth and inclusivity, and provide valuable educational resources and experiences to students who may otherwise lack access to such opportunities. Together, we can create an unforgettable and impactful STEM-inspired fiesta that celebrates Houston&lsquo;s Hispanic cultural heritage while nurturing the educational growth of our community.
             <br />
             <br />
             <br />
