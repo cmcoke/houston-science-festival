@@ -74,7 +74,7 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link href={"/"} className="text-[1.25rem] tracking-[0.03rem]">
+              <Link href={"/sponsor"} className="text-[1.25rem] tracking-[0.03rem]">
                 Sponsor
               </Link>
             </li>
