@@ -1,7 +1,7 @@
 interface introductionProps {
   title: React.ReactNode;
   subtitle?: React.ReactNode;
-  paragraph: string;
+  paragraph: React.ReactNode;
   button: React.ReactNode;
 }
 
