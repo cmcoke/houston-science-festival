@@ -12,7 +12,13 @@ const Sponsors = () => {
     <section className="mt-[7rem] md:mt-[11rem] lg:mt-[300px] px-3">
       <h1 className="heading mb-[3rem] md:mb-[6rem] lg:mb-[150px]">Thank you to our 2023 Sponsors</h1>
 
-      <div className="flex flex-col md:flex-row justify-center items-center gap-11 md:gap-[117px]">
+      {/* <div className="flex flex-col lg:flex-row justify-center items-center gap-11 md:gap-[117px] mx-[12rem]">
+        <Image src={vela} width={301} height={127} alt="vela" />
+        <Image src={hslda} width={340} height={127} alt="hslda" />
+        <Image src={hccSmall} width={257} height={143} alt="hcc" />
+      </div> */}
+
+      <div className="grid gap-8 items-center justify-center px-12 md:grid-cols-3 max-w-[1200px] mx-auto">
         <Image src={vela} width={301} height={127} alt="vela" />
         <Image src={hslda} width={340} height={127} alt="hslda" />
         <Image src={hccSmall} width={257} height={143} alt="hcc" />

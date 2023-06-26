@@ -6,6 +6,7 @@ import Sqaure from "@/components/Sqaure";
 import Rectangle from "@/components/Rectangle";
 import Exhibitors from "@/components/Exhibitors";
 import Sponsors from "@/components/Sponsors";
+import Callaborators from "@/components/Callaborators";
 
 const Home = () => {
   return (
@@ -39,6 +40,7 @@ const Home = () => {
       </section>
       <Exhibitors />
       <Sponsors />
+      <Callaborators />
     </>
   );
 };
