@@ -14,7 +14,7 @@ import riceUniCallab from "../public/images/riceUniCallab.png";
 
 const Callaborators = () => {
   return (
-    <section className="max-w-[1200px] mx-auto px-3 mt-[5rem] lg:mt-[14rem]">
+    <section className="max-w-[1200px] mx-auto px-3 mt-[5rem] mb-[6rem] md:mb-[11rem]  lg:mt-[14rem] lg:mb-[10rem]">
       <h1 className="heading mb-[2rem] lg:mb-[7rem]">
         Thank you to our Founding <br /> Collaborators
       </h1>

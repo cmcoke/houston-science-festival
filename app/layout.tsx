@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import "./globals.css";
 import localFont from "next/font/local";
+import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "Houston Science Festival",
@@ -15,7 +16,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className={`grid grid-rows-[auto_1fr_auto] grid-cols-[100%] min-h-[100vh] bg-[#202B52] text-white ${myFont.className} relative`}>
         <Header />
         <main>{children}</main>
-        <footer></footer>
+        <Footer />
       </body>
     </html>
   );
