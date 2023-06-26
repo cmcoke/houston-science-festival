@@ -3,7 +3,7 @@ import square from "../public/images/square.png";
 
 interface squareProps {
   title: string;
-  paragraph: string;
+  paragraph: React.ReactNode;
   button: React.ReactNode;
 }
 

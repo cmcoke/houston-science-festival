@@ -35,7 +35,7 @@ const Home = () => {
           <Sqaure title="Volunteer" paragraph="We are actively seeking volunteers, aged 16 and above, who are willing to dedicate their time and contribute to the success of the Houston Science Festival. Your participation will be crucial in promoting and sharing your passion for STEM education within your community." button={<Button text="Sign up!" ariaLabel="Sign up" />} />
         </div>
         <div className=" mt-[20rem] md:mt-[80px] lg:mt-[180px] pb-[13rem]">
-          <Rectangle title="Exhibit" paragraph="Join us for an exhilarating day of hands-on STEM activities! We are seeking passionate exhibitors who can lead engaging activities in an expo hall setting, aimed at introducing their organization to 6th-12th grade students and parents while igniting their enthusiasm for math and science. As an exhibitor or activity leader, your role will involve providing exciting hands-on STEM experiences, along with offering support and encouragement." button={<Button text="Sign up!" ariaLabel="Sign up" />} />
+          <Rectangle title="Exhibit" paragraph="Join us for an exhilarating day of hands-on STEM activities! We are seeking passionate exhibitors who can lead engaging activities in an expo hall setting, aimed at introducing their organization to 6th-12th grade students and parents while igniting their enthusiasm for math and science. As an exhibitor or activity leader, your role will involve providing exciting hands-on STEM experiences, along with offering support and encouragement." cta="Click the button below to learn more." button={<Button text="Sign up!" ariaLabel="Sign up" />} />
         </div>
       </section>
       <Exhibitors />
